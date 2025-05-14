@@ -1,36 +1,77 @@
-"# Advanced Crypto Trading Bots & Tools"
-This is Bot Service library what is working on raydium, pumpfun, meteora
-Solana & EVM bot services
-support grpc volume bot, bundler bot, sniping bot, copy trading bot, wallet tracking
-Demo video links
-volume bot - https://www.youtube.com/watch?v=7lVfFEN30M8
-bundler bot - https://www.youtube.com/watch?v=XkJ6IOPr0lI
-sniper bot - https://www.youtube.com/watch?v=D8XfP-WamiA
-copy trading bot - https://www.youtube.com/watch?v=0PQmbM_v0ug
+Here’s a **professional, clean, and GitHub-optimized README** based on your content:
 
-support services
+---
 
-<div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px;">
+# 🚀 Advanced Crypto Trading Bots & Tools
 
-| **Category**            | **Bot Name**                           | **Description**                              | **Fetures**                                                                |
-| ----------------------- | -------------------------------------- | -------------------------------------------- | -------------------------------------------------------------------------- |
-| **Volume Bots**         | Ethereum Volume Bot                    | Ethereum volumn bot                          | Use OpenZeppelin SDK                                                       |
-|                         | Ethereum Volume Bot (Multiple Wallets) | Base Volumn bot                              | Use Bitquery and Web3.py                                                   |
-|                         | Raydium Volume Bot                     | Jito bundle-based fast bot                   | Use Jupiter Router                                                         |
-|                         | Solana Multidex Volume Bot             | Volume bot for Raydium, Meteora, and Jupiter | Use Solana Tracker                                                         |
-|                         | Meteora Volume Bot                     | Solana-specific Meteora volume bot           | Use Meteora SDK                                                            |
-|                         | Pumpfun Volume Bot                     | Solana-based volume bot                      | Use Pumpfun SDK                                                            |
-|                         | Moonshot Volume Bot                    | High-potential Solana volume bot             | Use Moonshot SDK                                                           |
-|                         | Tron Volume Bot                        | Tron-based volume bot                        | Use Sun Pump API                                                           |
-| **Sniper Bots**         | Pumpfun Sniper Bot                     | Basic sniper bot                             | Use WebSocket Monitor, Able to run with Free RPC                           |
-|                         | Pumpfun Sniper Bot v1                  | Geyser-enhanced WebSocket sniper bot         | Use Helius Geyser, Enhanced Sniping Time                                   |
-|                         | Pumpfun Sniper Bot v2                  | Advanced sniper with Yellowstone support     | Use YellowStone GRPC, Sniping around 1 Block                               |
-|                         | Raydium Sniper Bot                     | Solana sniper bot using logs                 | Use Helius Geyser, Raydium SDK                                             |
-|                         | Raydium Sniper Bot v1                  | Enhanced sniper bot with WebSocket           | Use YellowStone GRPC, Jito Confirm, Raydium SDK                            |
-| **Bundlers**            | Pumpfun Bundler                        | Multi-wallet bundler                         | Simple Jito Bundling                                                       |
-|                         | Raydium Bundler                        | 21+ wallet bundler for Raydium               | Bundling + 21 Wallets, ( Updating ) 27 Wallets                             |
-| **PumpFun Comment Bot** | PumpFun Comment Bot                    | Automates comments for PumpFun               | Comment from JSON file , Comment from New Generated Address                |
-| **MemeToken Launchpad** | MemeToken Launchpad                    | Meme token launchpad on Raydium              | Raydium Token Launchpad to launch meme tokens in Raydium                   |
-| **Token Freezer**       | Token Freezer                          | Tool for freezing tokens                     | Freezes token account by sending transactions to ATA                       |
-| **Copy Trading Bot**    | Copy Trading Bot                       | Automates trades by mirroring wallets        | Use jupiter Route                                                          |
-| **Wallet Trackers**     | Wallet Trackers                        | Track and monitor crypto wallets             | Wallet Activity, Token Price, Tracking 10000 Lists , Double Hash User Info |
+A powerful and extensible **Bot Service Library** supporting **Solana** and **EVM** ecosystems.
+Designed to automate crypto trading strategies across platforms like **Raydium**, **Pump.fun**, and **Meteora**.
+
+> Built for developers, researchers, and DeFi traders who want to automate volume detection, sniping, bundling, copy trading, and wallet tracking with precision and scalability.
+
+---
+
+## 🎥 Demo Videos
+
+* **Volume Bot** – [Watch Demo](https://www.youtube.com/watch?v=7lVfFEN30M8)
+* **Bundler Bot** – [Watch Demo](https://www.youtube.com/watch?v=XkJ6IOPr0lI)
+* **Sniper Bot** – [Watch Demo](https://www.youtube.com/watch?v=D8XfP-WamiA)
+* **Copy Trading Bot** – [Watch Demo](https://www.youtube.com/watch?v=0PQmbM_v0ug)
+
+---
+
+## 🛠️ Supported Bot Services
+
+| **Category**           | **Bot Name**                       | **Description**                              | **Features**                                                      |
+| ---------------------- | ---------------------------------- | -------------------------------------------- | ----------------------------------------------------------------- |
+| **Volume Bots**        | Ethereum Volume Bot                | Ethereum volume scanner                      | Uses OpenZeppelin SDK                                             |
+|                        | Ethereum Volume Bot (Multi-Wallet) | Base Ethereum volume bot                     | Uses Bitquery + Web3.py                                           |
+|                        | Raydium Volume Bot                 | Jito bundle-based bot for Solana             | Uses Jupiter Router                                               |
+|                        | Solana Multidex Volume Bot         | Multi-DEX support for Raydium, Meteora, etc. | Uses Solana Tracker                                               |
+|                        | Meteora Volume Bot                 | Meteora-specific volume tracking bot         | Uses Meteora SDK                                                  |
+|                        | Pumpfun Volume Bot                 | Pump.fun trading volume bot                  | Uses Pumpfun SDK                                                  |
+|                        | Moonshot Volume Bot                | High-potential token hunter                  | Uses Moonshot SDK                                                 |
+|                        | Tron Volume Bot                    | Volume bot for Tron                          | Uses Sun Pump API                                                 |
+| **Sniper Bots**        | Pumpfun Sniper Bot                 | Basic sniping bot                            | Uses WebSocket Monitor, supports Free RPC                         |
+|                        | Pumpfun Sniper Bot v1              | Geyser-enhanced sniper                       | Uses Helius Geyser, improved speed                                |
+|                        | Pumpfun Sniper Bot v2              | Block-level sniper with Yellowstone          | Uses Yellowstone GRPC                                             |
+|                        | Raydium Sniper Bot                 | Log-based sniping                            | Uses Raydium SDK, Helius Geyser                                   |
+|                        | Raydium Sniper Bot v1              | Enhanced sniper with WebSocket + Jito        | Uses Yellowstone GRPC, Jito Confirm                               |
+| **Bundlers**           | Pumpfun Bundler                    | Basic bundler for multi-wallet execution     | Uses Jito Bundling                                                |
+|                        | Raydium Bundler                    | Advanced bundler (21+ wallets)               | Bundles up to 27 wallets (updating)                               |
+| **Pumpfun Tools**      | Pumpfun Comment Bot                | Auto-commenting bot for tokens               | Supports JSON comment list, random address comment injection      |
+| **Token Tools**        | MemeToken Launchpad                | Meme token launchpad for Raydium             | Helps deploy tokens via Raydium launch process                    |
+|                        | Token Freezer                      | Token lock/freeze tool                       | Freezes tokens using ATA transactions                             |
+| **Trading Automation** | Copy Trading Bot                   | Real-time wallet mirroring bot               | Uses Jupiter routing                                              |
+| **Wallet Analytics**   | Wallet Trackers                    | Monitor activity of wallets                  | Tracks 10,000+ wallets, price alerts, double hash user ID support |
+
+---
+
+## 🧠 Technologies Used
+
+* **Rust / Python / Web3.py**
+* **Jupiter Aggregator**
+* **Meteora SDK / Raydium SDK / Pumpfun SDK**
+* **Helius Geyser / Yellowstone GRPC**
+* **OpenZeppelin SDK / Bitquery API**
+* **Jito Bundling System**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you want to add new strategies, chains, or tools:
+
+1. Fork this repo
+2. Create your feature branch
+3. Commit and push
+4. Open a PR
+
+Please include test coverage or usage notes if possible.
+
+---
+
+## 📫 Contact
+
+Created by **[RustyNeuron](https://github.com/rustyneuron01)**
+Twitter: [@OVB\_Coder](https://x.com/OVB_Coder)
