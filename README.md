@@ -1,6 +1,3 @@
-Here’s a **professional, clean, and GitHub-optimized README** based on your content:
-
----
 
 # 🚀 Advanced Crypto Trading Bots & Tools
 
