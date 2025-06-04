@@ -1,6 +1,6 @@
 # 🤖 Bot Service Library — Advanced Crypto Trading Bots & Tools
 
-A modular, scalable bot service framework for building high-performance trading tools on the **Solana** and **EVM** ecosystems.
+A modular, scalable bot service framework for building high-performance trading tools on the **Solana** and **EVM** and **Avalanche** ecosystems.
 Supports platforms including **Raydium**, **Pump.fun**, **Meteora**, and more—ideal for DeFi developers looking to automate strategies like **volume monitoring**, **sniping**, **copy trading**, **wallet tracking**, and **multi-wallet bundling**.
 
 ---
@@ -28,7 +28,7 @@ Supports platforms including **Raydium**, **Pump.fun**, **Meteora**, and more—
 
 | **Category**         | **Bot Name**                     | **Description**                     | **Features**                                     |
 | -------------------- | -------------------------------- | ----------------------------------- | ------------------------------------------------ |
-| **Volume Bots**      | Ethereum Volume Bot              | Ethereum trading volume detection   | OpenZeppelin SDK                                 |
+| **Volume Bots**      | Avalanche Volume Bot             | Ethereum trading volume detection   | OpenZeppelin SDK                                 |
 |                      | Ethereum Multi-Wallet Volume Bot | Monitor multiple Ethereum wallets   | Bitquery + Web3.py                               |
 |                      | Raydium Volume Bot               | Fast Jito bundle-based bot          | Jupiter Router                                   |
 |                      | Solana Multidex Volume Bot       | For Raydium, Meteora, Jupiter       | Solana Tracker                                   |
